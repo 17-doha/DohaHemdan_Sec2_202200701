@@ -51,12 +51,12 @@ http://localhost:5000/api-docs
 
 ### 2. Test the API
 
-View detailed API documentation for all available routes 
-Use the Swagger UI interface to send requests (GET, POST, PUT, DELETE) and see responses directly in the browser 
-Example routes available in the documentation: 
+View detailed API documentation for all available routes  
+Use the Swagger UI interface to send requests (GET, POST, PUT, DELETE) and see responses directly in the browser  
+Example routes available in the documentation:  
 
-POST /books/add-book: Add a new book 
-GET /books/list-all-books: List all books 
-GET /books/search-books: Search for books based on author, year, or genre 
-PUT /books/<isbn>: Update a book by its ISBN 
-DELETE /books/<isbn>: Delete a book by its ISBN 
+POST /books/add-book: Add a new book  
+GET /books/list-all-books: List all books  
+GET /books/search-books: Search for books based on author, year, or genre  
+PUT /books/<isbn>: Update a book by its ISBN  
+DELETE /books/<isbn>: Delete a book by its ISBN  
