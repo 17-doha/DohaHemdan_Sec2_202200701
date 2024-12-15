@@ -15,33 +15,39 @@ This project is a simple Book API built with Flask and Docker. It allows you to 
 ## a. **Building and Running the Docker Container**
 
 ### 1. Clone the repository:
+
 First, clone this repository to your local machine or download the files.
 
 ```bash
 git clone <repository_url>
 cd <repository_name>
+```
 
 ### 2. Build the Docker image:
+
 Once inside the project directory, run the following command to build the Docker image.
 
 ```bash
 docker build -t flask-book-api .
+```
 
 ### 3. Run the Docker container:
+
 After building the image, you can run the container with the following command:
 
 ```bash
 docker run -p 5000:5000 --name flask_app flask-book-api
-
+```
 
 # Accessing Swagger
 
 ### 1. Open Swagger UI
+
 Once the container is running, open your web browser and navigate to:
 
 ```bash
 http://localhost:5000/api-docs
-
+```
 
 ###2. Test the API
 
@@ -54,5 +60,3 @@ GET /books/list-all-books: List all books
 GET /books/search-books: Search for books based on author, year, or genre
 PUT /books/<isbn>: Update a book by its ISBN
 DELETE /books/<isbn>: Delete a book by its ISBN
-
-
