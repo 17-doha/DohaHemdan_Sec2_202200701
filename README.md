@@ -49,7 +49,7 @@ Once the container is running, open your web browser and navigate to:
 http://localhost:5000/api-docs
 ```
 
-###2. Test the API
+### 2. Test the API
 
 View detailed API documentation for all available routes
 Use the Swagger UI interface to send requests (GET, POST, PUT, DELETE) and see responses directly in the browser
