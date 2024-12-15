@@ -51,7 +51,7 @@ http://localhost:5000/api-docs
 
 ### 2. Test the API
 
-View detailed API documentation for all available routes
+View detailed API documentation for all available routes 
 Use the Swagger UI interface to send requests (GET, POST, PUT, DELETE) and see responses directly in the browser
 Example routes available in the documentation:
 
